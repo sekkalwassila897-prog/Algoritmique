@@ -14,7 +14,7 @@ BUTTON_COLOR  = "#1E4DB7"   # أزرق ملكي ناصع للأزرار
 BUTTON_HOVER  = "#3C6EE8"   # أزرق فاتح لامع عند المرور
 TEXT_COLOR    = "#FFFFFF"   # أبيض نقي للنصوص
 ACCENT_COLOR  = "#AFCBFF"   # أزرق سماوي فاتح للعناوين الثانوية
-
+# FROM MEHDI 
 # ===== العنوان في الأعلى =====
 header = tk.Label(root, text="Matière : Algorithmique Avancée & Complexité", font=("Arial", 18, "bold"),
                   bg=HEADER_COLOR, fg="white", pady=10)
