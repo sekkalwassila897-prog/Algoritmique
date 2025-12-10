@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from b_arbre_star import BStarTree
+from TP2.b_arbre_star import BStarTree
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
@@ -126,7 +126,7 @@ class BTreeApp:
         if self.type_arbre.get() == "B-Arbre*":
             self.arbre = BStarTree(order)
         else:
-            from b_arbre import bTree
+            from TP2.b_arbre import bTree
             self.arbre = bTree(order)
 
         if liste:
@@ -173,7 +173,7 @@ class BTreeApp:
                 if self.type_arbre.get() == "B-Arbre*":
                     self.arbre = BStarTree(order)
                 else:
-                    from b_arbre import bTree
+                    from TP2.b_arbre import bTree
                     self.arbre = bTree(order)
 
             if self.type_arbre.get() == "B-Arbre*":

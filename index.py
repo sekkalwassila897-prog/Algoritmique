@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
-from TP1 import GraphApp
-from TP2 import BTreeApp
-from TP3 import MergeSortTreeSteps
+from TP1.TP1 import GraphApp
+from TP2.TP2 import BTreeApp
+from TP3.TP3 import MergeSortTreeSteps
 
 
 root = tk.Tk()
