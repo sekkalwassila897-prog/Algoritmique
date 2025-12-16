@@ -3,7 +3,7 @@ from tkinter import ttk
 from TP1.TP1 import GraphApp
 from TP2.TP2 import BTreeApp
 from TP3.TP3 import MergeSortTreeSteps
-
+import subprocess  # إضافة هذا الاستيراد لتشغيل TP4 في نافذة مستقلة
 
 root = tk.Tk()
 root.title("TP Algorithmique - Ingénierie Logiciel")
@@ -29,6 +29,9 @@ menu_frame.pack(side=tk.LEFT, fill=tk.Y)
 content_frame = tk.Frame(main_frame, bg="white")
 content_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
 
+# =======================================
+# تعديل دالة show_tp_content
+# =======================================
 def show_tp_content(tp_number):
     for widget in content_frame.winfo_children():
         widget.destroy()
@@ -39,6 +42,9 @@ def show_tp_content(tp_number):
         BTreeApp(content_frame)
     elif tp_number == 3:
         MergeSortTreeSteps(content_frame)
+    elif tp_number == 4:
+        # تشغيل TP4 (PyQt5) في نافذة مستقلة
+        subprocess.Popen(["python", "TP4/main_app.py"])
     else:
         label = tk.Label(content_frame, text=f"Contenu du TP{tp_number}",
                          font=("Arial", 16), bg="white", fg=TEXT_COLOR)
