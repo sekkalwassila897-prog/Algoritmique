@@ -118,7 +118,7 @@ def home():
             </div>
 
             <div class="links">
-                <a href="https://github.com/votre-compte/Algoritmique/blob/main/TP4/main_app.py" target="_blank">
+                <a href="https://github.com/sekkalwassila897-prog/Algoritmique/blob/main/TP4/main_app.py" target="_blank">
                     🔗 Code source sur GitHub
                 </a>
             </div>
