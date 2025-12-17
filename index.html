@@ -16,13 +16,19 @@
       header {
         background: #1f3c88;
         color: white;
-        padding: 20px;
+        padding: 25px;
         text-align: center;
       }
 
       h1,
       h2 {
         margin: 0;
+      }
+
+      header p {
+        margin-top: 10px;
+        font-size: 14px;
+        opacity: 0.9;
       }
 
       .container {
@@ -38,6 +44,7 @@
         padding: 20px;
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
       }
 
       .card h3 {
@@ -48,12 +55,13 @@
       .card p {
         color: #333;
         font-size: 14px;
+        text-align: justify;
       }
 
       .btn {
         display: inline-block;
-        padding: 10px 16px;
-        margin: 5px 0;
+        padding: 10px 18px;
+        margin-top: 12px;
         background: #1f3c88;
         color: white;
         text-decoration: none;
@@ -71,6 +79,7 @@
         padding: 15px;
         background: #1f3c88;
         color: white;
+        font-size: 14px;
       }
     </style>
   </head>
@@ -78,17 +87,22 @@
   <body>
     <header>
       <h1>Déploiement des Travaux Pratiques</h1>
-      <h2>Algorithmique Avancée - Groupe08</h2>
+      <h2>Algorithmique Avancée – Groupe 08</h2>
+      <p>
+        Membres du groupe : Sekkal Wassila – Eschrougui Yousra – Hadj Mohammed
+        Douae – Fares Yasmine – Lezoul Imene – Galleze Nada
+      </p>
     </header>
 
     <div class="container">
       <!-- ===================== TP1 ====================== -->
       <div class="card">
-        <h3>TP1 - Interface Tkinter</h3>
+        <h3>TP1 – Explorer et dessiner des graphes et arbres</h3>
         <p>
           Manipulation et visualisation des graphes et des arbres à l’aide de
-          Python. Le TP inclut la création de graphes, les parcours BFS/DFS et
-          le calcul de propriétés telles que le diamètre et la densité.
+          Python. Ce TP inclut la création de graphes, les parcours BFS et DFS,
+          ainsi que le calcul de propriétés telles que le diamètre et la
+          densité.
         </p>
 
         <a
@@ -96,17 +110,17 @@
           target="_blank"
           href="https://tp1-algorithmique-avancee-0273.onrender.com"
         >
-          📁 Code source
+          📁 Accéder au TP1
         </a>
       </div>
 
       <!-- ===================== TP2 ====================== -->
       <div class="card">
-        <h3>TP2 - B-Arbre et B*-Arbre</h3>
+        <h3>TP2 – B-Arbre et B-Arbre*</h3>
         <p>
-          Étude et manipulation des structures de données équilibrées B-Arbre et
-          B-Arbre*. Le TP permet d’implémenter les opérations d’insertion,
-          suppression et recherche avec visualisation graphique.
+          Étude des structures de données équilibrées B-Arbre et B-Arbre*. Ce TP
+          permet d’implémenter les opérations d’insertion, de suppression et de
+          recherche avec une visualisation graphique via Tkinter.
         </p>
 
         <a
@@ -114,17 +128,17 @@
           target="_blank"
           href="https://tp2-algorithmique-avancee.onrender.com"
         >
-          📁 Code source
+          📁 Accéder au TP2
         </a>
       </div>
 
       <!-- ===================== TP3 ====================== -->
       <div class="card">
-        <h3>TP3 - Algorithmes de Recherche</h3>
+        <h3>TP3 – Algorithme de Tri par Fusion</h3>
         <p>
-          Visualisation pédagogique de l’algorithme de tri par fusion (Merge
-          Sort). Le TP illustre la stratégie Diviser pour Régner à travers un
-          arbre de récursion et des étapes de fusion successives.
+          Visualisation pédagogique de l’algorithme Merge Sort. Ce TP illustre
+          la stratégie Diviser pour Régner à travers un arbre de récursion et
+          les différentes étapes de fusion des sous-tableaux.
         </p>
 
         <a
@@ -132,31 +146,34 @@
           target="_blank"
           href="https://tp3-algorithmique-avancee.onrender.com"
         >
-          📁 Code source
+          📁 Accéder au TP3
         </a>
       </div>
 
       <!-- ===================== TP4 ====================== -->
       <div class="card">
-        <h3>TP4 - Extension du projet</h3>
-        <p>TP supplémentaire (ou espace réservé pour ajout futur).</p>
+        <h3>TP4 – Algorithmes sur les graphes</h3>
+        <p>
+          TP consacré à l’étude d’algorithmes classiques et dynamiques appliqués
+          aux graphes. Il approfondit les notions vues dans les TPs précédents.
+        </p>
 
         <a
           class="btn"
           target="_blank"
           href="https://tp4-algorithmique-avancee.onrender.com"
         >
-          📁 Code source
+          📁 Accéder au TP4
         </a>
       </div>
 
       <!-- ===================== INDEX ====================== -->
       <div class="card">
-        <h3>Interface Principale - index.py</h3>
+        <h3>Interface Principale – index.py</h3>
         <p>
           Interface principale développée en Tkinter servant de point d’entrée
-          au projet. Elle permet de lancer et naviguer entre les différents TP
-          (TP1 à TP4) à l’aide de boutons.
+          du projet. Elle permet de naviguer et de lancer les différents TP (TP1
+          à TP4) à partir d’une seule interface.
         </p>
 
         <a
@@ -164,11 +181,13 @@
           target="_blank"
           href="https://github.com/sekkalwassila897-prog/Algoritmique/blob/main/index.py"
         >
-          📁 Voir index.py (GitHub)
+          📁 Voir index.py sur GitHub
         </a>
       </div>
     </div>
 
-    <footer>Réalisé par le groupe – Module Algorithmique Avancée – 2025</footer>
+    <footer>
+      Réalisé par le Groupe 08 – Module Algorithmique Avancée – 2025
+    </footer>
   </body>
 </html>
