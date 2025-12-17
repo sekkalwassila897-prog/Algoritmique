@@ -159,7 +159,7 @@ def home():
                     la conception de l’application et des exemples d’exécution.
                 </p>
                 <p>
-                    📄 <a href="https://github.com/sekkalwassila897-prog/Algoritmique/blob/main/TP2/Rapport_TP2.pdf" target="_blank">
+                    📄 <a href="https://github.com/sekkalwassila897-prog/Algoritmique/blob/main/melgithub/TP2_BTree_BStarTree_Presentation.pdf" target="_blank">
                         Consulter le rapport PDF
                     </a>
                 </p>

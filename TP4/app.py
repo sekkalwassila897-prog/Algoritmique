@@ -111,7 +111,7 @@ def home():
                     Un rapport détaillé au format PDF est disponible.
                 </p>
                 <p>
-                    📄 <a href="https://github.com/votre-compte/Algoritmique/blob/main/TP4/Rapport_TP4.pdf" target="_blank">
+                    📄 <a href="https://github.com/sekkalwassila897-prog/Algoritmique/blob/main/melgithub/PRESENTATION%20TP4.pdf" target="_blank">
                         Consulter le rapport PDF
                     </a>
                 </p>
